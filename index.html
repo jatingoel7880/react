@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>react</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1>Hello Top of the root</h1> <!--This will not be replaced and render by the react because react is only rendering div root -->
+    <div id="root"></div>
+    <h1> Hello Below of the root</h1> <!--This will not be replaced and render by the react because react is only rendering div root -->
+    <!-- <script>
+      const heading = document.createElement("h1");
+      heading.innerHTML = "Hello World!";
+
+      const root = document.getElementById("root");
+      root.appendChild(heading);
+    </script> -->
+
+    <!-- no longer needed this cdn links for react b/c installed react and react-dom via npm -->
+    <!-- <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script> -->
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
+ 
